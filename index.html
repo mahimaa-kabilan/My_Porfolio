@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>maimaa's little world ♡ | Game Developer & Creative Explorer</title>
+  <meta name="description"
+    content="Welcome to Maimaa's portfolio! A computer science student and game developer creating playful, dreamy interactive experiences.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Main Scrapbook Container -->
+  <div class="page-container">
+
+    <!-- Top Navigation Bar -->
+    <header class="site-header">
+      <nav class="nav-container" aria-label="Main Navigation">
+        <a href="index.html" class="brand-title" aria-label="Maimaa's portfolio homepage">
+          <span>Hi, I'm Mahimaa Kabilan</span>
+          <span class="brand-heart" aria-hidden="true">♡</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="active" aria-current="page">home</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li><a href="interests.html">interests</a></li>
+          <li><a href="achievements.html">achievements</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+      <!-- Hero Greeting Section -->
+      <section class="hero-section" aria-labelledby="hero-title">
+        <div class="greeting-card">
+          <!-- Scrapbook Washi Tape Effect -->
+          <div class="washi-tape" aria-hidden="true"></div>
+
+          <!-- Decorative Floating Sparkles -->
+          <span class="floating-star star-left" aria-hidden="true">✦</span>
+          <span class="floating-star star-right" aria-hidden="true">⋆</span>
+          <span class="floating-star star-mini" aria-hidden="true">✧</span>
+
+          <h1 id="hero-title" class="hero-title">HeLLo,</h1>
+          <p class="hero-subtitle">A CSE student interested in game development and exploring new things in life</p>
+        </div>
+
+        <!-- Semicircular Navigation Component -->
+        <section class="semicircle-wrapper" aria-label="Interactive Portfolio Pathways">
+          <div class="semicircle-svg-container">
+            <svg class="semicircle-svg" viewBox="0 0 600 300" role="img" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-label="Semicircular navigation divided into three sections: My Projects, My Interests, and My Achievements">
+              <defs>
+                <!-- Drop Shadows and Filters -->
+                <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#775AB8" flood-opacity="0.15" />
+                </filter>
+              </defs>
+
+              <!-- ==============================================
+                   SECTOR 1: MY PROJECTS (Left: 180° to 120°)
+                   Pastel Pink
+                   ============================================== -->
+              <a href="projects.html" xlink:href="projects.html" class="sector-link sector-projects" role="link"
+                aria-label="Navigate to My Projects: game development and creative code" tabindex="0">
+                <!-- Semicircle Sector Path (R=250, Center=(300, 270)) -->
+                <path class="sector-path" d="M 300 270 L 50 270 A 250 250 0 0 1 175 53.5 Z" />
+
+                <!-- Game Controller Icon -->
+                <g class="sector-icon" transform="translate(162, 162)">
+                  <!-- Gamepad Body -->
+                  <rect x="-24" y="-15" width="48" height="30" rx="14" fill="#FFFFFF" stroke="#D45B82"
+                    stroke-width="2.5" />
+                  <!-- D-Pad (Left) -->
+                  <path
+                    d="M -15 -6 L -11 -6 L -11 -10 L -7 -10 L -7 -6 L -3 -6 L -3 -2 L -7 -2 L -7 2 L -11 2 L -11 -2 L -15 -2 Z"
+                    fill="#D45B82" />
+                  <!-- Action Buttons (Right) -->
+                  <circle cx="8" cy="-4" r="3" fill="#D45B82" />
+                  <circle cx="15" cy="2" r="3" fill="#FF8BA7" />
+                  <!-- Center Heart Badge -->
+                  <path
+                    d="M 0 -1 C -1.5 -3.5 -4.5 -3.5 -5 -1 C -5.5 1.5 -1.5 4 0 5.5 C 1.5 4 5.5 1.5 5 -1 C 4.5 -3.5 1.5 -3.5 0 -1 Z"
+                    fill="#D45B82" />
+                </g>
+
+                <!-- Title & Arrow -->
+                <text class="sector-title" x="162" y="202" text-anchor="middle">MY PROJECTS</text>
+                <text class="sector-arrow" x="162" y="222" text-anchor="middle">explore →</text>
+              </a>
+
+              <!-- ==============================================
+                   SECTOR 2: MY INTERESTS (Center: 120° to 60°)
+                   Pastel Lavender
+                   ============================================== -->
+              <a href="interests.html" xlink:href="interests.html" class="sector-link sector-interests" role="link"
+                aria-label="Navigate to My Interests: art, music, code, and creative hobbies" tabindex="0">
+                <!-- Semicircle Sector Path -->
+                <path class="sector-path" d="M 300 270 L 175 53.5 A 250 250 0 0 1 425 53.5 Z" />
+
+                <!-- Flower & Sparkle Icon -->
+                <g class="sector-icon" transform="translate(300, 96)">
+                  <!-- Flower Petals -->
+                  <circle cx="0" cy="-11" r="8" fill="#FFFFFF" stroke="#775AB8" stroke-width="1.8" />
+                  <circle cx="11" cy="-3" r="8" fill="#FFFFFF" stroke="#775AB8" stroke-width="1.8" />
+                  <circle cx="7" cy="10" r="8" fill="#FFFFFF" stroke="#775AB8" stroke-width="1.8" />
+                  <circle cx="-7" cy="10" r="8" fill="#FFFFFF" stroke="#775AB8" stroke-width="1.8" />
+                  <circle cx="-11" cy="-3" r="8" fill="#FFFFFF" stroke="#775AB8" stroke-width="1.8" />
+                  <!-- Center Core -->
+                  <circle cx="0" cy="0" r="7.5" fill="#FFF2B2" stroke="#775AB8" stroke-width="2" />
+                  <!-- Twinkle Stars -->
+                  <path d="M 18 -14 L 19.5 -10 L 23.5 -8.5 L 19.5 -7 L 18 -3 L 16.5 -7 L 12.5 -8.5 L 16.5 -10 Z"
+                    fill="#775AB8" />
+                </g>
+
+                <!-- Title & Arrow -->
+                <text class="sector-title" x="300" y="138" text-anchor="middle">MY INTERESTS</text>
+                <text class="sector-arrow" x="300" y="158" text-anchor="middle">discover →</text>
+              </a>
+
+              <!-- ==============================================
+                   SECTOR 3: MY ACHIEVEMENTS (Right: 60° to 0°)
+                   Pastel Peach
+                   ============================================== -->
+              <a href="achievements.html" xlink:href="achievements.html" class="sector-link sector-achievements"
+                role="link" aria-label="Navigate to My Achievements: game jams, awards, and milestones" tabindex="0">
+                <!-- Semicircle Sector Path -->
+                <path class="sector-path" d="M 300 270 L 425 53.5 A 250 250 0 0 1 550 270 Z" />
+
+                <!-- Trophy & Star Icon -->
+                <g class="sector-icon" transform="translate(438, 162)">
+                  <!-- Trophy Cup -->
+                  <path d="M -16 -16 L 16 -16 L 12 4 C 10 12 -10 12 -12 4 Z" fill="#FFFFFF" stroke="#C76B37"
+                    stroke-width="2.5" />
+                  <!-- Trophy Handles -->
+                  <path d="M -15 -12 C -23 -12 -23 0 -13 0" fill="none" stroke="#C76B37" stroke-width="2.2"
+                    stroke-linecap="round" />
+                  <path d="M 15 -12 C 23 -12 23 0 13 0" fill="none" stroke="#C76B37" stroke-width="2.2"
+                    stroke-linecap="round" />
+                  <!-- Stem & Base -->
+                  <line x1="0" y1="10" x2="0" y2="16" stroke="#C76B37" stroke-width="3" />
+                  <rect x="-11" y="16" width="22" height="5" rx="2.5" fill="#FFFFFF" stroke="#C76B37"
+                    stroke-width="2" />
+                  <!-- Star Emblem in Cup -->
+                  <path d="M 0 -8 L 2 -3 L 7 -3 L 3 0 L 4.5 5 L 0 2 L -4.5 5 L -3 0 L -7 -3 L -2 -3 Z" fill="#F8C646" />
+                </g>
+
+                <!-- Title & Arrow -->
+                <text class="sector-title" x="438" y="202" text-anchor="middle">MY ACHIEVEMENTS</text>
+                <text class="sector-arrow" x="438" y="222" text-anchor="middle">celebrate →</text>
+              </a>
+
+              <!-- ==============================================
+                   Dividing Lines Between Sectors
+                   ============================================== -->
+              <line class="sector-divider" x1="300" y1="270" x2="175" y2="53.5" />
+              <line class="sector-divider" x1="300" y1="270" x2="425" y2="53.5" />
+
+              <!-- Flat Horizontal Bottom Base Line -->
+              <line class="semicircle-baseline" x1="48" y1="270" x2="552" y2="270" />
+
+              <!-- Cute Central Base Anchor Hub -->
+              <path class="semicircle-hub" d="M 270 270 A 30 30 0 0 1 330 270 Z" />
+              <path class="hub-heart"
+                d="M 300 256 C 298.5 253 294.5 253 294 256 C 293.5 259 298.5 262 300 264 C 301.5 262 306.5 259 306 256 C 305.5 253 301.5 253 300 256 Z" />
+            </svg>
+          </div>
+
+          <!-- Tiny Friendly Hint Below Semicircle -->
+          <div class="semicircle-hint" role="status">
+            <span>♡</span> pick a little path to explore <span>♡</span>
+          </div>
+        </section>
+      </section>
+    </main>
+
+  </div>
+
+  <!-- Vanilla JS -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
